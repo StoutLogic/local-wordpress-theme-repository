@@ -1,0 +1,21 @@
+{
+    "name": "stoutlogic/local-wordpress-theme-repository",
+    "description": "Use to setup a local wordpress-theme package repository for development or production",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Steve Pfisterer",
+            "email": "steve@stoutlogic.com"
+        }
+    ],
+    "type": "composer-plugin",
+    "require": {
+        "composer-plugin-api": "^1.0"
+    },
+    "autoload": {
+        "psr-4": { "StoutLogic\\LocalWordPressThemeRepository\\": "src/" }
+    },
+    "extra": {
+        "class": "StoutLogic\\LocalWordPressThemeRepository\\Plugin"
+    }
+}
